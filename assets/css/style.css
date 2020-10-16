@@ -1,7 +1,7 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,22 +9,20 @@ body {
 }
 
 /* utility class */
-
 .container {
   width: 75%;
-  margin:auto;
+  margin: auto;
 }
 
-
 #site-header {
-  height: 600px;
+  height: 400px;
   background: green;
   background-image: url();
 }
 
 #site-main {
-  height: 1000px;
-  background: red;
+  height: 500px;
+  background: yellow;
 }
 
 #site-footer {
@@ -39,72 +37,83 @@ body {
 .float_right {
   float: right;
 }
+
 /* /utility class */
-
-
-
 /* HEADER */
 /* nav_top */
-
 .nav_top div {
   width: 50%;
   background: purple;
-  border:1px solid black;
+  border: 1px solid black;
 }
 
 .nav_top_right {
   text-align: right;
+  border: 1px solid black;
 }
 
 /* /nav_top */
-
-
 /* nav_bottom */
-
 .nav_bottom div {
   width: 50%;
   background: red;
-  border:1px solid black;
+  border: 1px solid black;
 }
 
 .nav_bottom_right {
   text-align: right;
+  border: 1px solid black;
 }
 
 /* /nav_bottom */
-
-
 /* jumbotron */
 .jumbotron {
   width: 50%;
+  border: 1px solid black;
 }
+
 /* RICORDATI CHE L'IMMAGINE VA ASSEGNATA DI BACKGROUND AL SITE HEADER */
 /* /jumbotron */
+/* jumbotron_bottom */
+.jumbotron_bottom {
+  border: 1px solid black;
+}
 
+/* /jumbotron_bottom */
 /* /HEADER */
-
-
-
-
 /* MAIN */
-
 /* services */
-/* /services */
+/* top_services */
+.top_services {
+  width: 60%;
+  margin: auto;
+  border:1px solid black;
+}
 
+/* /top_services */
+/* middle_services */
+.middle_services {
+  width: 100%;
+  border:1px solid black;
+}
+
+/* /middle_services */
+/* bottom_services */
+.col-4 {
+  width: 33.333%;
+  border:1px solid black;
+}
+
+.card {
+  width: 80%;
+}
+
+/* /bottom_services */
+/* /services */
 /* community */
 /* /community */
-
-
 /* testimonials */
 /* /testimonials */
-
-
 /* /MAIN */
-
-
-
-
 /* FOOTER */
-
-
 /* /FOOTER */
