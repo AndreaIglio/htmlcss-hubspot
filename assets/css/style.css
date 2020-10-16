@@ -4,8 +4,32 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* utility class */
+
+.container {
+  width: 75%;
+  margin:auto;
+}
+
+
+#site-header {
+  height: 1400px;
+  background: green;
+}
+
+#site-main {
+  height: 1000px;
+  background: red;
+}
+
+#site-footer {
+  height: 800px;
+  background: blue;
+}
 
 /* /utility class */
 
@@ -23,7 +47,7 @@ box-sizing: border-box;
 
 
 /* jumbotron */
-
+/* RICORDATI CHE L'IMMAGINE VA ASSEGNATA DI BACKGROUND AL SITE HEADER */
 /* /jumbotron */
 
 /* /HEADER */
