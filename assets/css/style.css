@@ -27,7 +27,7 @@ body {
 
 #site-footer {
   height: 800px;
-  background: blue;
+  background: grey;
 }
 
 .float_left {
@@ -110,10 +110,91 @@ body {
 
 /* /bottom_services */
 /* /services */
+
+
 /* community */
+
+/* top_community */
+.top_community {
+  width: 80%;
+  margin: auto;
+}
+/* /top_community */
+
+
+/* middle_community */
+
+.middle_community {
+  /* width: 100%; */
+}
+/* /middle_community */
+
+
+/* bottom_community */
+.col-3 {
+  width: 25%;
+  border:1px solid black;
+}
+/* /bottom_community */
+
 /* /community */
+
+
+
+
 /* testimonials */
+
+/* top_testimonials */
+ .top_testimonials_left {
+   width: 35%;
+ }
+
+ .top_testimonials_right {
+   width: 65%;
+ }
+/* /top_testimonials */
+
+/* bottom_testimonials */
+.bottom_testimonials_left {
+  width: 50%;
+}
+.bottom_testimonials_right {
+  width: 50%;
+}
+/* /bottom_testimonials */
+
 /* /testimonials */
 /* /MAIN */
 /* FOOTER */
+/* top footer */
+.footer_top {
+  width: 100%;
+  text-align: right;
+  border:1px solid black;
+}
+/* /top footer */
+
+/* middle_footer */
+.middle_footer {
+  width: 50%;
+  margin: auto;
+  border:1px solid black;
+  text-align: center;
+}
+/* /middle_footer */
+
+/* bottom_footer */
+.bottom_footer {
+width: 100%;
+}
+
+.bottom_left_footer {
+  width: 50%;
+  border:1px solid black;
+}
+.bottom_right_footer {
+  width: 50%;
+  border:1px solid black;
+}
+/* /bottom_footer */
 /* /FOOTER */
