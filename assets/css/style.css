@@ -17,8 +17,9 @@ body {
 
 
 #site-header {
-  height: 1400px;
+  height: 600px;
   background: green;
+  background-image: url();
 }
 
 #site-main {
@@ -31,6 +32,13 @@ body {
   background: blue;
 }
 
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
 /* /utility class */
 
 
@@ -38,15 +46,38 @@ body {
 /* HEADER */
 /* nav_top */
 
+.nav_top div {
+  width: 50%;
+  background: purple;
+  border:1px solid black;
+}
+
+.nav_top_right {
+  text-align: right;
+}
+
 /* /nav_top */
 
 
 /* nav_bottom */
 
+.nav_bottom div {
+  width: 50%;
+  background: red;
+  border:1px solid black;
+}
+
+.nav_bottom_right {
+  text-align: right;
+}
+
 /* /nav_bottom */
 
 
 /* jumbotron */
+.jumbotron {
+  width: 50%;
+}
 /* RICORDATI CHE L'IMMAGINE VA ASSEGNATA DI BACKGROUND AL SITE HEADER */
 /* /jumbotron */
 
