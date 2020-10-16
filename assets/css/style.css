@@ -16,7 +16,7 @@ body {
 
 #site-header {
   height: 400px;
-  background: green;
+  background: ;
   background-image: url();
 }
 
@@ -38,37 +38,63 @@ body {
   float: right;
 }
 
+.w_50 {
+  width: 50%;
+}
+
+.text_a_r {
+  text-align: right;
+
+}
+
+/* color utility */
+
+.bg_lightblue {
+  background: #F4F9FD;
+}
+
+.bg_white {
+  background: white;
+}
+/* /color utility */
+
+
 /* /utility class */
 /* HEADER */
 /* nav_top */
-.nav_top div {
-  width: 50%;
-  background: purple;
-  border: 1px solid black;
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
 }
 
+.nav_top {
+  width: 75%;
+  margin: auto;
+}
+
+.nav_top_left {
+}
 .nav_top_right {
-  text-align: right;
-  border: 1px solid black;
-}
 
+}
 /* /nav_top */
 /* nav_bottom */
-.nav_bottom div {
-  width: 50%;
-  background: red;
-  border: 1px solid black;
+.nav_bottom {
+  width: 75%;
+  margin: auto;
+}
+
+.nav_bottom_left{
+
 }
 
 .nav_bottom_right {
-  text-align: right;
-  border: 1px solid black;
 }
 
 /* /nav_bottom */
 /* jumbotron */
 .jumbotron_text {
-  width: 50%;
   border: 1px solid black;
 }
 
