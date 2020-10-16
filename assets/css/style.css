@@ -182,10 +182,10 @@ body {
 
 /* bottom_testimonials */
 .bottom_testimonials_left {
-  width: 50%;
+
 }
 .bottom_testimonials_right {
-  width: 50%;
+
 }
 /* /bottom_testimonials */
 
@@ -202,7 +202,6 @@ body {
 
 /* middle_footer */
 .middle_footer {
-  width: 50%;
   margin: auto;
   border:1px solid black;
   text-align: center;
@@ -215,7 +214,6 @@ width: 100%;
 }
 
 .bottom_left_footer {
-  width: 50%;
   border:1px solid black;
 }
 .bottom_right_footer {
