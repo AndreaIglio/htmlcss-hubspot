@@ -55,6 +55,32 @@ a {
     border-right: 2px solid grey;
 }
 
+.padding_10 {
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn_general {
+  background: #FC927A;
+  color: white;
+  border: none;
+  border: 2px solid #FC927A;
+}
+
+.btn_general:hover {
+  background: rgba(252,146,122,0.8);
+}
+
+.font_size_16 {
+  font-size: 16px;
+}
 /* color utility */
 
 .bg_lightblue {
@@ -69,6 +95,8 @@ a {
 
 /* /utility class */
 /* HEADER */
+
+
 /* nav_top */
 
 .navbar {
@@ -78,25 +106,44 @@ a {
   font-weight: 400;
   font-size: 16px;
 }
-
-.navbar a {
-  color: #32495b;
-}
-
-.nav_top a {
-  padding: 0 20px;
-}
+/* nav_top_left */
 
 .nav_top {
   width: 70%;
   margin: auto;
 }
 
-.nav_top_left {
+.nav_top_left a {
+  padding: 0 20px;
 }
+
+.nav_top_left a {
+    color: #32495b;
+}
+
+/* /nav_top_left */
+
+/* nav_top_right */
 .nav_top_right {
 
 }
+
+.nav_top_right a {
+  padding: 0 10px;
+}
+
+.nav_top_right i {
+color: #00A4BD;
+}
+
+.btn_login {
+  background: transparent;
+  color:  #FC927A;
+  border: 2px solid #FC927A;
+  font-size: 16px;
+}
+/* /nav_top_right */
+
 /* /nav_top */
 /* nav_bottom */
 .nav_bottom {
