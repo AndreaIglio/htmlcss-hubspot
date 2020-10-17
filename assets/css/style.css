@@ -8,9 +8,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* utility class */
 .container {
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 
@@ -47,6 +51,10 @@ body {
 
 }
 
+.border_r {
+    border-right: 2px solid grey;
+}
+
 /* color utility */
 
 .bg_lightblue {
@@ -66,10 +74,21 @@ body {
 .navbar {
   width: 100%;
   overflow: hidden;
+  line-height: 5;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navbar a {
+  color: #32495b;
+}
+
+.nav_top a {
+  padding: 0 20px;
 }
 
 .nav_top {
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 
@@ -81,7 +100,7 @@ body {
 /* /nav_top */
 /* nav_bottom */
 .nav_bottom {
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 
