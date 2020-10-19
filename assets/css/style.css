@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #33475B;
+  min-width:1400px
 }
 
 a {
@@ -29,8 +31,8 @@ a {
 #site-header {}
 
 #site-main {
-  height: 500px;
-  background: yellow;
+  height: 2000px;
+  background: #F4F9FD;
 }
 
 #site-footer {
@@ -56,8 +58,31 @@ a {
   width: 50%;
 }
 
+.w_30 {
+  width: 30%;
+}
+
+.w_70 {
+  width: 70%;
+}
+
+.w_40 {
+  width: 40%;
+}
+.w_60 {
+  width: 60%;
+}
+
 .text_a_r {
   text-align: right;
+}
+
+.text_a_l {
+  text-align: left;
+}
+
+.text_a_c {
+  text-align: center;
 }
 
 .border_r {
@@ -97,6 +122,12 @@ a {
 
 .font_size_16 {
   font-size: 16px;
+}
+
+.card_style {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
 }
 
 /* color utility */
@@ -187,11 +218,12 @@ a {
 
 .jumbotron {
   width: 100%;
-  background-image: url('../img/header_img/jumbotron.png');
+  height: 690px;
+  background-image: url(../img/header_img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   overflow: hidden;
-  background-position: ;
+  background-position: top right;
+  background-color: #fef4ee;
 }
 .jumbotron_text div {
   margin: 30px 0;
@@ -208,44 +240,112 @@ a {
   font-size: 14px;
 }
 
-/* RICORDATI CHE L'IMMAGINE VA ASSEGNATA DI BACKGROUND AL SITE HEADER */
-/* /jumbotron */
-/* jumbotron_bottom */
-.jumbotron_bottom {
-  border: 1px solid black;
-  height: 100px;
+.jumbotron::after {
+  content: '';
+  width: 100%;
+  height: 90px;
   background-color: #AFEBE4;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
+  overflow: hidden;
 }
 
-/* /jumbotron_bottom */
+/* /jumbotron */
+
 /* /HEADER */
 /* MAIN */
 /* services */
 /* top_services */
 .top_services {
-  width: 60%;
+  width: 70%;
   margin: auto;
-  border: 1px solid black;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+
+.top_services h2{
+  font-size: 200%;
+}
+
+.top_services p{
+  margin: 30px 0;
+  padding: 20px 0px;
 }
 
 /* /top_services */
 /* middle_services */
 .middle_services {
   width: 100%;
-  border: 1px solid black;
+  overflow: hidden;
+  padding: 60px;
+
 }
+
+/* middle_service_left */
+  .middle_service_left {
+    text-align: center;
+  }
+
+  .middle_service_left_img{
+    text-align: center;
+  }
+/* /middle_service_left */
+
+
+
+/* middle_service_right */
+.middle_service_right {
+  padding: 0 30px;
+}
+
+.middle_service_right_text {
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.middle_service_line {
+  border-top: 2px solid grey;
+  display: inline;
+  position: relative;
+  bottom: 12px;
+}
+
+.middle_service_right li {
+  display: inline;
+  padding:0 10px;
+  /* padding: 0 10px; */
+}
+
+.middle_service_right i {
+  color: #FC927A;
+}
+
+.middle_service_right_list {
+  margin-top: 30px;
+}
+
+
+/* /middle_service_right */
+
+
 
 /* /middle_services */
 /* bottom_services */
+
+.bottom_services {
+  margin: 20px 0;
+}
+
 .col-4 {
   width: 33.333%;
-  border: 1px solid black;
+
 }
 
 .card {
   width: 80%;
+  text-align: center;
+
 }
 
 /* /bottom_services */
