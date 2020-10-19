@@ -403,9 +403,10 @@ overflow: hidden;
 
 .community {
     background: linear-gradient(45deg, #00a4bd, #00bda5);
-    height: 800px;
     color: white;
     padding: 60px 0;
+    display: block;
+    overflow: hidden;
 }
 /* top_community */
 
@@ -419,17 +420,73 @@ overflow: hidden;
 /* middle_community */
 .middle_community {
   width: 100%;
-  margin: auto;
+  margin: 50px 0;
   text-align: center;
 }
 
 /* /middle_community */
 /* bottom_community */
+
 .col-3 {
   width: 25%;
-  border: 1px solid black;
   text-align: center;
 }
+
+
+.bottom_community img {
+  margin: 15px 0;
+}
+
+.bottom_community h3 {
+  margin-right: 10px;
+  font-size: 220%;
+  display: inline;
+}
+
+.community_icons{
+  font-size: 15px;
+  position: relative;
+  bottom:6px;
+}
+
+.bottom_community p{
+  font-size: 10px;
+}
+
+
+
+.col-3:nth-child(2){
+  border-left: 1px solid white;
+}
+
+.col-3:nth-child(3){
+  border-left: 1px solid white;
+}
+
+.col-3:nth-child(4){
+  border-left: 1px solid white;
+}
+
+.col-3:nth-child(5) {
+  border-top: 1px solid white;
+}
+
+.col-3:nth-child(6) {
+  border: 1px solid white;
+  border-bottom: 0;
+  border-right: 0;
+}
+.col-3:nth-child(7) {
+  border: 1px solid white;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.col-3:nth-child(8) {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
 
 /* /bottom_community */
 /* /community */
