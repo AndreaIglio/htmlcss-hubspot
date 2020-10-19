@@ -31,7 +31,7 @@ a {
 #site-header {}
 
 #site-main {
-  height: 2000px;
+  height: 3000px;
   background: #F4F9FD;
 }
 
@@ -334,18 +334,58 @@ a {
 /* bottom_services */
 
 .bottom_services {
-  margin: 20px 0;
+  width: 100%;
+  margin: 50px 0px;
+  overflow: hidden;
 }
 
 .col-4 {
-  width: 33.333%;
-
+  width: 30%;
+  margin: auto;
 }
 
 .card {
-  width: 80%;
+  width: 100%;
   text-align: center;
+}
 
+.middle_col {
+  margin: 0 5%;
+}
+
+.card_content {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.card_content img {
+  height: 105px;
+  width: 100px;
+}
+
+.card_content h3,p{
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.card_content p{
+  height: 180px;
+}
+
+.card_content ul{
+  list-style: none;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.card_content li {
+  text-decoration: none;
+}
+
+.card_content i {
+  margin-right: 10px;
+  color: #FC927A;
 }
 
 /* /bottom_services */
