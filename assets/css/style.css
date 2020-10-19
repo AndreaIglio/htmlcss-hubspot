@@ -19,9 +19,10 @@ a {
 }
 
 #site-header {
-  height: 400px;
+  height: 650px;
   background: ;
-  background-image: url();
+  background-image: url('../img/header_img/jumbotron.png');
+  /* background-size: 1500px; */
 }
 
 #site-main {
@@ -57,6 +58,10 @@ a {
 
 .padding_10 {
   padding: 10px;
+}
+
+.padding_r {
+  padding-right: 20px;
 }
 
 .btn {
@@ -113,7 +118,7 @@ a {
   margin: auto;
 }
 
-.nav_top_left a {
+.nav_top_left a:nth-child(2) {
   padding: 0 20px;
 }
 
@@ -124,9 +129,6 @@ a {
 /* /nav_top_left */
 
 /* nav_top_right */
-.nav_top_right {
-
-}
 
 .nav_top_right a {
   padding: 0 10px;
@@ -155,7 +157,17 @@ color: #00A4BD;
 
 }
 
-.nav_bottom_right {
+.logo_img{
+  transform: translateY(10px);
+}
+
+
+.nav_bottom_right a{
+  color: #32495b;
+  padding-left: 15px;
+}
+.nav_bottom_right i{
+  padding-left: 5px;
 }
 
 /* /nav_bottom */
