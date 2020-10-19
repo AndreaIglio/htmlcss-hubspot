@@ -134,11 +134,15 @@ a {
   font-weight: 400;
   font-size: 16px;
 }
+
 /* nav_top_left */
 
 .nav_top {
-  width: 70%;
+  width: 100%;
   margin: auto;
+  position: fixed;
+  border-bottom: 1px solid black;
+  z-index: 2;
 }
 
 .nav_top_left a:nth-child(2) {
@@ -174,6 +178,7 @@ color: #00A4BD;
 .nav_bottom {
   width: 70%;
   margin: auto;
+  margin-top: 80px;
 }
 
 .nav_bottom_left{
